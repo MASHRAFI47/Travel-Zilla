@@ -76,9 +76,11 @@
     /* deal starts */
     .discount-one {
         padding: 200px 20px 40px 20px;
+        margin: 15px;
     }
     .discount-two {
         padding: 200px 20px 40px 20px;
+        margin: 15px;
     }
     .discount-card {
         width: 100%;
@@ -92,4 +94,36 @@
     }
 
     /* deal ends */
+
+    /* perfect-place starts */
+    .perfect-place {
+        flex-direction: column;
+    }
+    .perfect-texts {
+        margin: 15px;
+    }
+    video {
+        width: 100%;
+    }
+    .see-more {
+        width: 150px;
+    }
+    /* perfect-place ends */
+
+
+    /* newsletter section starts */
+    .newsletter-section {
+        flex-direction: column;
+    }
+    .newsletter {
+        margin: 15px;
+    }
+    .inner-text {
+        width: 170px;
+        position: relative;
+        left: 200px;
+        bottom: 160px;
+        transform: rotate(-30deg);
+    }
+    /* newsletter section ends */
 }
