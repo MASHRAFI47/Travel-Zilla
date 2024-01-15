@@ -1,0 +1,368 @@
+/* global css starts */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+:root {
+    --primary-color: #FF5400;
+    --secondary-color: #131313;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+.img-fluid {
+    display: flex;
+    width: 100%;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: #FFF;
+    border-radius: 5px;
+    padding: 12px 25px;
+    border: 1px solid var(--primary-color);
+    transition: 0.5s;
+}
+
+.btn-primary:hover {
+    background-color: transparent;
+    color: var(--primary-color);
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.para {
+    color: rgba(19, 19, 24, 0.70);
+    line-height: 22px;
+}
+
+section {
+    margin-top: 120px;
+}
+
+.middle {
+    text-align: center;
+}
+
+/* global css ends */
+
+
+/* header starts*/
+nav {
+    padding: 20px 0px;
+    max-width: 1140px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logopic {
+    display: flex;
+    align-items: center;
+}
+
+.menu>ul {
+    display: flex;
+    gap: 20px;
+}
+
+.menu ul li {
+    list-style-type: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 18px;
+}
+
+.travel {
+    font-size: 32px;
+    margin-left: 5px;
+}
+
+.zilla {
+    color: var(--primary-color);
+}
+
+
+.banner {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 190px 210px;
+    max-width: 1140px;
+    margin: 0px auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.banner-title {
+    color: #FFF;
+    font-size: 52px;
+    font-weight: 800;
+}
+
+.banner-desc {
+    color: #FFF;
+    margin: 20px 0px;
+}
+
+.input-items {
+    background: rgba(255, 255, 255, 0.30);
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.banner input,
+select {
+    padding: 12px 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+input::placeholder {
+    color: rgba(19, 19, 24, 0.50);
+}
+
+select {
+    color: rgba(19, 19, 24, 0.50);
+}
+
+.banner input,
+select {
+    margin-right: 15px;
+}
+
+.home {
+    color: var(--primary-color) !important;
+}
+
+
+
+/* popular-tours start */
+.popular-tours {
+    display: flex;
+    align-items: center;
+}
+
+.popular-para {
+    margin: 15px 0px;
+}
+
+.popular-list {
+    margin: 15px 0px 15px 15px;
+}
+
+.popular-tours .read-more {
+    width: 150px;
+}
+
+.popular-left {
+    padding: 0px 20px;
+}
+
+.popular-tours img {
+    margin-top: 40px;
+}
+
+/* popular-tours end */
+
+/* destination starts*/
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.row-second {
+    display: grid;
+    grid-template-columns: 25% 49% 25%;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.row-third {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.desc-title {
+    text-align: center;
+    color: #FFF;
+    font-size: 25px;
+}
+
+.destination-para {
+    margin: 15px 0px;
+}
+
+.maldives {
+    background: url("../Images/Rectangle\ 5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    padding: 130px 0px;
+}
+
+.indonesia {
+    background: url("../Images/Rectangle\ 8.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    padding: 130px 0px;
+}
+
+.srilanka {
+    background: url("../Images/Rectangle\ 6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    padding: 130px 0px;
+}
+
+.north-america {
+    background: url("../Images/Rectangle\ 7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    padding: 130px 0px;
+}
+
+.kashmir {
+    background: url("../Images/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    padding: 130px 0px;
+}
+
+.bangladesh {
+    background: url("../Images/Rectangle\ 10.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    padding: 130px 0px;
+}
+
+.bandarban {
+    background: url("../Images/Rectangle\ 11.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    padding: 130px 0px;
+}
+
+/* destination ends*/
+
+/* choose-us starts */
+.choose-para {
+    margin: 15px 0px;
+}
+.row-one{
+    margin-bottom: 10px;
+}
+.row-two {
+    width: 565px;
+    margin: 0px auto;
+    height: 148px;
+}
+.card {
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px 55px 32px 32px;
+    border-radius: 5px;
+}
+.card-two {
+    background: rgba(41, 206, 246, 0.05);
+    border-radius: 5px;
+}
+.card-title {
+    font-size: 20px;
+    margin: 10px 0px;
+}
+/* choose-us ends */
+
+/* deal */
+.discount-one {
+    background: url("../Images/Group\ 39.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 120px 50px 120px 500px;
+    border-radius: 10px;
+    max-width: 1140px;
+    margin: 0px auto;
+}
+.discount-two {
+    background: url("../Images/Group\ 40.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 120px 500px 120px 50px;
+    border-radius: 10px;
+    max-width: 1140px;
+    margin: 0px auto;
+}
+.discount-card {
+    background-color: #FFF;
+    opacity: 0.9;
+    width: 550px;
+    padding: 50px;
+    border-radius: 10px;
+}
+.discount-card-two {
+    margin-bottom: 15px;
+}
+.price {
+    color: var(--primary-color);
+    margin: 10px 0px;
+}
+.discount-title {
+    font-size: 20px;
+}
+.discount-para {
+    font-size: 15px;
+    margin: 5px 0px;
+}
+.discount-one {
+    margin-bottom: 15px;
+}
+.icons {
+    display: flex;
+    gap: 10px;
+}
+.icons-right {
+    display: flex;
+}
+.fa-clock-o, .fa-users, .fa-map-marker {
+    color: var(--primary-color);
+}
+.deal-para {
+    margin: 15px 0px;
+}
+.deal {
+    margin-top: 240px;
+}
+/* deal ends */
+
+/* perfect-place */
