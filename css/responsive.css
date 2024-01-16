@@ -131,6 +131,7 @@
     /* newsletter section starts */
     .newsletter-section {
         flex-direction: column;
+        gap: 0px;
     }
     .newsletter {
         margin: 15px;
