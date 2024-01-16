@@ -4,10 +4,184 @@
     }
     /* header starts */
     nav {
-        flex-direction: column;
-        padding: 5px 10px;
+        padding: 5px 15px;
+    }
+    .menu-lists li a{
+        display: none;
+    }
+    .hamburger {
+        display: block;
+    }
+    .banner {
+        padding: 50px 24px;
+        margin: 15px;
+        border-radius: 20px;
     }
 
+    .menu > ul {
+        gap: 10px;
+        padding: 5px 0px;
+    }
+    .banner-title, .zilla {
+        font-size: 26px;
+    }
+    input, select {
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .btn-primary {
+        width: 100%;
+    }
+    /* header ends */
+
+    /* popular starts */
+    .popular-tours {
+        flex-direction: column;
+    }
+    .popular-tours img {
+        width: 100%;
+        padding: 15px;
+        border-radius: 40px;
+    }
+    /* popular ends */
+
+    /* card */
+    .card-two {
+        width: 100%;
+    }
+    .card {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .row-two {
+        width: 100%;
+    }
+    /* choose us */
+    .choose-us-texts {
+        width: 100%;
+    }
+
+    /* destination starts */
+    .dest-text {
+        border-radius: 20px;
+    }
+    .destination-texts {
+        width: 100%;
+    }
+    .row {
+        grid-template-columns: 1fr;
+        margin: 15px;
+    }
+    .row-second {
+        grid-template-columns: 1fr;
+        margin: 15px;
+    }
+    .row-third {
+        grid-template-columns: 1fr;
+        margin: 15px;
+    }
+    /* destination ends */
+
+    /* deal starts */
+    .deals-texts {
+        width: 100%;
+    }
+    .discount-one {
+        padding: 200px 20px 40px 20px;
+        margin: 15px;
+    }
+    .discount-two {
+        padding: 200px 20px 40px 20px;
+        margin: 15px;
+    }
+    .discount-card {
+        width: 100%;
+    }
+    .icons {
+        margin: 10px 0px;
+    }
+    .icons-right {
+        display: flex;
+        gap: 10px;
+    }
+
+    /* deal ends */
+
+    /* perfect-place starts */
+    .perfect-place {
+        flex-direction: column;
+    }
+    .perfect-texts {
+        margin: 15px;
+    }
+    .video {
+        padding: 15px;
+        border-radius: 15pxx;
+    }
+    video {
+        width: 100%;
+    }
+    .see-more {
+        width: 150px;
+    }
+    /* perfect-place ends */
+
+
+    /* newsletter section starts */
+    .newsletter-section {
+        flex-direction: column;
+    }
+    .newsletter {
+        margin: 15px;
+    }
+    .newsletter-image img {
+        padding: 15px;
+    }
+    .inner-text {
+        width: 170px;
+        position: relative;
+        left: 200px;
+        bottom: 120px;
+        transform: rotate(-30deg);
+    }
+    /* newsletter section ends */
+
+    /* blog starts */
+    .blog {
+        flex-direction: column;
+    }
+    .blog-card img {
+        padding: 15px;
+        border-radius: 10px;
+    }
+    .blog-card {
+        text-align: center;
+    }
+    /* blog ends */
+
+    /* footer starts */
+    footer {
+        margin-top: 30px;
+    }
+    .prefooter {
+        width: 300px;
+    }
+    /* footer ends */
+}
+
+
+@media screen and (min-width:568px) and (max-width: 960px) {
+    /* header starts */
+    nav {
+        padding: 5px 15px;
+    }
+    .menu-lists li a{
+        display: none;
+    }
+    .hamburger {
+        display: block;
+    }
     .banner {
         padding: 50px 24px;
         margin: 15px;
@@ -130,4 +304,68 @@
         transform: rotate(-30deg);
     }
     /* newsletter section ends */
+    /* footer starts */
+    footer {
+        margin-top: 30px;
+    }
+    .prefooter {
+        width: 300px;
+    }
+    /* footer ends */
+    .destination-texts {
+        width: 100%;
+    }
+    .choose-us-texts {
+        width: 100%;
+    }
+    .deals-texts {
+        width: 100%;
+    }
+    .blog {
+        padding: 15px;
+    }
+}
+
+
+
+@media screen and (min-width:961px) and (max-width: 1366px) {
+    /* deal starts */
+    * {
+        overflow-x: hidden;
+    }
+    nav {
+        padding: 0px 20px;
+    }
+    .discount-one {
+        padding: 200px 20px 40px 20px;
+        margin: 15px;
+    }
+    .discount-two {
+        padding: 200px 20px 40px 20px;
+        margin: 15px;
+    }
+    .discount-card {
+        width: 100%;
+    }
+    .icons {
+        margin: 10px 0px;
+    }
+    .icons-right {
+        display: flex;
+        gap: 10px;
+    }
+
+    /* deal ends */
+    .inner-text {
+        left: 180px;
+    }
+    .destination-texts {
+        width: 100%;
+    }
+    .choose-us-texts {
+        width: 100%;
+    }
+    .deals-texts {
+        width: 100%;
+    }
 }
